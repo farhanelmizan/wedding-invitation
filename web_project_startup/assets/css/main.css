@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Kaushan+Script|Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
 html, body {
   overflow-x: hidden;
   margin: 0px;
@@ -82,9 +85,9 @@ row::after {
 	width: 100%;
 	text-align: center;
 	color:#000;
-  font-size:27px;
- 	letter-spacing:8px;
-  text-transform:uppercase;
+  font-size:40px;
+  letter-spacing:8px;
+  font-family: 'Pacifico','Kaushan Script';
 }
 .layout1, .layout3{
   min-height: 100%;
@@ -102,6 +105,7 @@ row::after {
 }
 .layout1{
   background-image: url('../images/latar.jpg');
+  font-family: 'Kalam';
 
 }
 .layout2 {
@@ -111,10 +115,12 @@ row::after {
   overflow-y: hidden;
   border-top: 20px solid #443e39;
   color: #a35e2a;
+  font-family: 'Kalam';
 }
 
 .layout2 p{
    line-height: 0.8;
+   font-family: 'Kalam';
 
 }
 .layout3{
@@ -126,6 +132,7 @@ row::after {
 }
 .layout5{
   text-align: center;
+  font-family: 'Kalam';
 }
 .pattern{
   background-image: url('../images/back-pattern.jpg');
@@ -141,4 +148,32 @@ row::after {
 }
 .container{
   padding: 15px;
+}
+
+.countdown{
+  text-align: center;
+}
+
+#clockdiv{ 
+  font-family: sans-serif; 
+  color: #fff; 
+  display: inline-block; 
+  font-weight: 100; 
+  text-align: center; 
+  font-size: 30px; 
+} 
+#clockdiv > div{ 
+  padding: 10px; 
+  border-radius: 3px; 
+  background: #bf763f; 
+  display: inline-block; 
+} 
+#clockdiv div > span{ 
+  padding: 15px;  
+  display: inline-block;
+  align-content: center;
+} 
+.smalltextcountdown{ 
+  padding-top: 5px; 
+  font-size: 16px; 
 }
