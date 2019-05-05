@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Kalam');
 
 html, body {
-  overflow-x: hidden;
+
   margin: 0px;
   font-family: "Roboto", sans-serif;
   max-width: 100%;
@@ -64,8 +64,8 @@ row::after {
 /* RESPONSIVE END */
 @media only screen and (min-width: 768px){
   /* IF desktop */
-  div.ptex{
-    top:50%;
+  div hr{
+    margin: 0 20%;
   }
   div.container{
     width: auto;
@@ -77,36 +77,39 @@ row::after {
     object-position: 50% 45%;
   }
 }
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #ffffff;
+    margin: 0 10%;
+    padding: 0;
+}
 .ptex{
-  text-shadow: 3px 0px 0px #FFFFFF;
+  text-shadow: 3px 0px 0px #eabc6b;
 	position: absolute;
-	top: 0%;
+	bottom: 20%;
 	width: 100%;
 	text-align: center;
 	color:#000;
-  font-size:27px;
+  font-size:42px;
  	letter-spacing:8px;
   font-family: 'Pacifico','Kaushan Script';
 }
-.layout1, .layout3{
+.layout1{
   min-height: 100%;
   position: relative;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
-
-}
-
-
-.layout1 .ptex{
-  top: 20%;
-}
-.layout1{
   background-image: url('../images/latar.jpg');
   font-family: 'Kalam';
+
 }
+
 .layout2 {
+  background-attachment: fixed;
   background-repeat: repeat;
   background-image: url('../images/back-pattern.jpg');
   text-align: center;
@@ -170,6 +173,7 @@ row::after {
   max-height: 400px;
   object-fit: cover;
   object-position: center;
+
 }
 .symbol{
   max-width: 50px;
