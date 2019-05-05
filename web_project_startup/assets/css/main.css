@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Kaushan+Script|Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
 html, body {
   overflow-x: hidden;
   margin: 0px;
@@ -61,85 +64,118 @@ row::after {
 /* RESPONSIVE END */
 @media only screen and (min-width: 768px){
   /* IF desktop */
-  .box-left, .box-right{
-    max-width: 70%;
+  div.ptex{
+    top:50%;
   }
-
-  .box-left{
-    margin-right: 0px;
-
+  div.container{
+    width: auto;
+    height: auto;
+    margin: auto;
   }
-  .box-right{
-    margin-left: 0px;
-  }
-  .container{
-    padding: 20px;
+  img.img1{
+    margin-top: 20px;
+    object-position: 50% 45%;
   }
 }
 .ptex{
+  text-shadow: 3px 0px 0px #FFFFFF;
 	position: absolute;
-	top: 50%;
+	top: 0%;
 	width: 100%;
 	text-align: center;
 	color:#000;
   font-size:27px;
  	letter-spacing:8px;
-  text-transform:uppercase;
+  font-family: 'Pacifico','Kaushan Script';
 }
-.layout1{
-  background-image: url('../images/latar.jpg');
+.layout1, .layout3{
   min-height: 100%;
   position: relative;
 	background-repeat: no-repeat;
 	background-position: center;
-	opacity: 0.70;
 	background-size: cover;
 	background-attachment: fixed;
+
 }
+
 
 .layout1 .ptex{
   top: 20%;
 }
+.layout1{
+  background-image: url('../images/latar.jpg');
+  font-family: 'Kalam';
+}
 .layout2 {
-  
-  min-height: 100%;
-  position: relative;
-  background-image: url('../images/flower-back.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-repeat: repeat;
+  background-image: url('../images/back-pattern.jpg');
   text-align: center;
-
+  overflow-y: hidden;
+  border-top: 20px solid #443e39;
+  color: #a35e2a;
+  font-family: 'Kalam';
 }
 
 .layout2 p{
    line-height: 0.8;
+   font-family: 'Kalam';
 }
 .layout3{
+
   background-image: url('../images/gambar1.jpg');
   min-height: 400px;
-  position: relative;
-	background-repeat: no-repeat;
-	background-position: center;
-  opacity: 0.70;
-	background-size: cover;
-	background-attachment: fixed;
-
 }
 .layout4{
   padding: 50px;
 }
 .layout5{
   text-align: center;
+  font-family: 'Kalam';
+}
+.pattern{
+  background-image: url('../images/back-pattern.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+}
+/* COUNTDOWN */
+.countdown{
+  text-align: center;
+}
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #bf763f;
+  display: inline-block;
+}
+#clockdiv div > span{
+  padding: 15px;
+  display: inline-block;
+  align-content: center;
+}
+.smalltextcountdown{
+  padding-top: 5px;
+  font-size: 16px;
+}
+/* END COUNTDOWN */
+.img1{
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+.symbol{
+  max-width: 50px;
 }
 
-.box-right, .box-left{
-  margin: auto;
-  opacity: 0.7;
-  text-align: center;
-  border: 2px solid black;
- border-radius: 5px;
-}
 .container{
   padding: 15px;
+  font-family: 'Kalam';
 }
