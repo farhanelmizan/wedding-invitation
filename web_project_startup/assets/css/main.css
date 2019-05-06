@@ -126,6 +126,11 @@ hr {
    line-height: 0.8;
    font-family: 'Kalam';
 }
+
+.layout2 a {
+  color: #a35e2a;
+}
+
 .layout3{
 
   background-image: url('../images/gambar1.jpg');
@@ -187,6 +192,38 @@ hr {
   padding: 15px;
   font-family: 'Kalam';
 }
+
+
+/*audio play button */
+.audioplay-object {
+  background:#bf763f;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.534);
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-decoration: none;
+  transition: ease all 0.3s;
+  position: fixed;
+  right: 30px;
+  bottom:30px;
+}
+
+.audioplay-button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.audioplay-button img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+/*END audio play button*/
+
+
 /*START SlideShow*/
 /* Slideshow container */
 /* * {box-sizing: border-box;} ALREADY HAVE IT*/
@@ -290,3 +327,4 @@ hr {
 }
 
 /*END SlideShow*/
+
