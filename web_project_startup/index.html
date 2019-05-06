@@ -14,7 +14,7 @@
 <body>
 
   <div class="layout1">
-    <div class="ptex"  data-aos-delay="100" data-aos="fade-up" data-aos-duration="3000" style="color:#ffffff">
+    <div class="ptex" data-aos-delay="100" data-aos="fade-up" data-aos-duration="3000" style="color:#ffffff">
       <hr />
       The Wedding </br>
       Cici & Kaisa
@@ -32,21 +32,21 @@
           <h2>M. Kaisa Elmizan </h2>
           <p>(Kaisa)</p>
           <p>Kamis, 13 Juni 2019</p>
-          <div class="countdown" >
+          <div class="countdown">
             <div id="clockdiv">
-              <div data-aos="flip-left" >
+              <div data-aos="flip-left">
                 <span class="days" id="day"></span>
                 <div class="smalltextcountdown">Days</div>
               </div>
-              <div data-aos="flip-left"data-aos-delay="300">
+              <div data-aos="flip-left" data-aos-delay="300">
                 <span class="hours" id="hour"></span>
                 <div class="smalltextcountdown">Hours</div>
               </div>
-              <div data-aos="flip-left"data-aos-delay="600">
+              <div data-aos="flip-left" data-aos-delay="600">
                 <span class="minutes" id="minute"></span>
                 <div class="smalltextcountdown">Minutes</div>
               </div>
-              <div data-aos="flip-left"data-aos-delay="900">
+              <div data-aos="flip-left" data-aos-delay="900">
                 <span class="seconds" id="second"></span>
                 <div class="smalltextcountdown">Seconds</div>
               </div>
@@ -63,9 +63,8 @@
       <div class="row">
         <div class="col-6 col-s-6">
           <div class="box-left">
-            <div class="container" >
-              <img class="symbol" src="./assets/images/ring-symbol.png"
-              data-aos-delay="100" data-aos="zoom-in" data-aos-duration="500" alt="">
+            <div class="container">
+              <img class="symbol" src="./assets/images/ring-symbol.png" data-aos-delay="100" data-aos="zoom-in" data-aos-duration="500" alt="">
               <h2>Akad</h2>
               <p>Pukul : 08.00 s/d selesai </p>
               <p>Masjid Nurul Huda Lawang Agung</p>
@@ -75,8 +74,7 @@
         <div class="col-6 col-s-6">
           <div class="box-right">
             <div class="container">
-              <img class="symbol" src="./assets/images/wedding-symbol.png"
-              data-aos-delay="100" data-aos="zoom-in" data-aos-duration="500" alt="">
+              <img class="symbol" src="./assets/images/wedding-symbol.png" data-aos-delay="100" data-aos="zoom-in" data-aos-duration="500" alt="">
               <h2>Resepsi</h2>
               <p>Pukul : 11.00 s/d selesai</p>
               <p>Lawang Agung, Sungai Penuh</p>
@@ -85,7 +83,64 @@
         </div>
       </div>
     </div>
+
+  <!-- START SLIDESHOW -->
+  <!-- Slideshow container -->
+  <div class="row">
+    <div class="col-12 col-s-12" style="padding: 0px;">
+      <h2>Gallery</h2>
+  <div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="assets/images/img1.jpeg" >
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/images/img2.jpeg" >
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/images/img3.jpeg" >
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/images/img4.jpg" >
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/images/img5.jpeg" >
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/images/img6.jpeg" >
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/images/img7.jpeg" >
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/images/img8.jpeg" >
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/images/img9.jpeg" >
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/images/img10.jpeg" >
+    </div>
+    <div class="mySlides fade">
+      <img src="assets/images/img11.jpeg" >
+    </div>
+
+    <!-- Next and previous buttons -->
+    <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
   </div>
+</div>
+</div>
+</div>
+  <!-- <br> -->
+
+  <!-- The dots/circles -->
+  <!-- <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> -->
+  <!-- end slideshow -->
   <div class="layout5">
     <div class="row ">
       <div class="col-12 col-s-12">
@@ -109,22 +164,13 @@
       </div>
     </div>
   </div>
-  <!-- <div class="layout4">
-    <div class="row">
-      <div class="col-12 col-s-12">
-
-        <div class="map">
-          <iframe src="https://embed.waze.com/iframe?zoom=16&lat=-2.067549&lon=101.399959&pin=1&desc=1" width="600" height="450" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div> -->
+  <script src="assets/javascript/slideshow.js"></script>
   <script>
-  window.addEventListener('load', AOS.refresh)
-  AOS.init({
-    once: true,
-  });
-</script>
+    window.addEventListener('load', AOS.refresh)
+    AOS.init({
+      once: true,
+    });
+  </script>
 </body>
 
 </html>
