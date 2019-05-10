@@ -128,27 +128,16 @@ hr {
   font-family: 'Kalam';
 
 }
-div.temukan{
+.temukan, .undangan,.hormat,.memories{
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+}
+.temukan{
   text-align: center;
   font: 400;
-  font-family: 'Satisfy', cursive;
-  font-size: 30px;
 }
 
-div.undangan{
-  font-family: 'Satisfy', cursive;
-  font-size: 30px;
-}
 
-div.hormat{
-  font-family: 'Satisfy', cursive;
-  font-size: 30px;
-}
-
-div.memories{
-  font-family: "Satisfy", cursive;
-  font-size: 30px;
-}
 .back-pattern {
   background-attachment: fixed;
   background-repeat: repeat;
@@ -267,7 +256,7 @@ div.memories{
 .slideshow-container {
   max-width: 100%;
   position: relative;
-  margin: 20px;
+  margin-bottom: 0px;
 }
 
 /* Hide the images by default */
@@ -332,4 +321,19 @@ div.memories{
 .mapouter {
   margin-right: auto;
   margin-left: auto;
+}
+
+.mapouter{
+  position: relative; 
+  text-align:right;
+  height:400px;
+  max-width:100%;
+}
+     
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:400px;
+  max-width:100%;
+  margin: 0px 20px;
 }
