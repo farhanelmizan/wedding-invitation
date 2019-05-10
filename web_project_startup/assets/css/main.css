@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Kaushan+Script|Tangerine');
-@import url('https://fonts.googleapis.com/css?family=Kalam');
-@import url('https://fonts.googleapis.com/css?family=Satisfy');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Kaushan+Script|Tangerine|Kalam|Satisfy|Raleway');
 
 html, body {
 
@@ -330,3 +327,9 @@ div.memories{
 }
 
 /*END SlideShow*/
+
+/* maps */
+.mapouter {
+  margin-right: auto;
+  margin-left: auto;
+}
